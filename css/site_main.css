@@ -102,3 +102,34 @@ h6{
     background-color: #0090FF;
     color: #fff;
 }
+
+@media only screen and (max-width:600px) {
+    .main_container {
+        flex-direction: column;
+    }
+
+    .main_container .main_section {
+        width: 90%;
+        margin: auto;
+    }
+
+    .main_sidebar {
+        width: 90%;
+        margin: auto;
+        margin: 2em;
+        position: relative;
+    }
+    .main_sidebar > div {
+        margin-bottom: 0;
+    }
+
+    .main_sidebar .sidebar_archives,
+    .main_sidebar .sidebar_footer {
+        width: 45%;
+    }
+    .main_sidebar .sidebar_footer {
+        position: absolute;
+        right: 0;
+        top: 9em;
+    }
+}

@@ -175,3 +175,45 @@
         display: none;
     }
 }
+
+@media only screen and (max-width:600px) {
+    .site_header .header_navbar ul{
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        hyphens: auto;
+    }
+    .site_header .header_navbar ul li {
+        margin-right: 0.3em;
+    }
+
+
+    .site_header .post_titel {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+    .post_titel .post_content {
+        width: 90%;
+        padding: 1.5em;
+    }
+    .post_titel .post_content h2 {
+        font-size: 2.5em;
+    }
+
+
+    .floating_posts  {
+        flex-direction: column;
+    }
+    .floating_posts .floating_post {
+        width: 90%;
+        margin-bottom: 1em;
+        height: 15.5em;
+    }
+    .floating_posts .floating_post svg {
+        display: block;
+    }
+
+
+    
+
+}
