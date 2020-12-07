@@ -1,0 +1,77 @@
+/*
+used colors:
+    blue: #007BFF
+    light-grey: #7f868b
+    dark-grey: #212529
+    grey: #55595C
+
+*/
+
+
+
+/* basic page setting*/
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #212529;
+    font-size: 18px;
+}
+p {
+    font-size: 0.9em;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+a li {
+    list-style: none;
+    
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrapper {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grey_bottom_border {
+    border-bottom: 1px solid #c5c4c4;
+}
+
+
+/* Footer style*/
+.site_footer {
+    height: 8em;
+    background-color: #F8F9FA;
+    border-top: 1px solid #c5c4c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #7f868b;
+}
+
+@media only screen and (max-width:1440px){
+    .wrapper{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .wrapper {
+        width: 95%;
+    }
+}
+
+
+
+

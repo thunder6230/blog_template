@@ -1,0 +1,104 @@
+/*Main section basic layout */
+
+
+
+h4 {
+    font-size: 1.6em;
+    font-style: italic;
+    margin: 0;
+}
+h5 {
+    font-size: 2em;
+    margin: 0;
+}
+h6{
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.code {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.9em;
+}
+.blog_title {
+    font-size: 2.5em;
+    margin: 0.5em 0 0;
+}
+.main_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+
+.main_section {
+    width: 65%;
+}
+
+
+/*Sidebar style*/
+.main_sidebar {
+    width: 32%;
+}
+
+.main_sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_sidebar > div {
+    margin-bottom: 1em;
+    padding: 1.3em;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+.main_sidebar .sidebar_header {
+    background-color: #F8F9FA;
+}
+.main_sidebar .sidebar_header p {
+    margin: 0;
+    font-size: 0.9em;
+}
+.main_sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Main blog section style*/
+.main_section p {
+    line-height: 1.5;
+    margin: 0.5em 0;
+}
+.date {
+    font-size: 0.9em;
+    color: #7f868b;
+    margin: 0 0 1.3em !important;
+}
+.grey_bottom_border.blog {
+    padding-bottom: 0.9em;
+    margin: 0;
+}
+.blog_post {
+    margin-bottom: 4em;
+}
+.blog_btn {
+    padding: 0.6em 1em;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #b5bdc2;
+    font-size: 0.9em;
+    transition: background-color 0.2s ease,
+                color 0.2s ease;
+}
+.blue.btn {
+    border: 1px solid #0090FF;
+}
+.blue.btn:hover {
+    cursor: pointer;
+    background-color: #0090FF;
+    color: #fff;
+}
